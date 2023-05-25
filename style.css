@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    color: skyblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: auto;
+    width: 600px;
+    height: 320px;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+.container .quotehead{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .quotebody{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px 30px;
+}
+
+.container .author{
+    text-align: end;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    padding-right: 30px;
+}
+
+.container .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container .items{
+    margin: 0px 40px; 
+    display: flex;
+    flex-basis: 50%;
+}
+
+.container .items i{
+    margin: 10px;
+    padding: 15px;
+    width: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 38px;
+    cursor : pointer;
+}
+
+.container .quotebutton{
+    text-align: end;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.container button{
+    width: max-content;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
